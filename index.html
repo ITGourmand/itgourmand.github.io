@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>itGourmand — Digital Ecosystem</title>
+
+    <!-- Favicon Configuration -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+
+    <!-- Fonts: Newsreader (Elegant Serif) + Plus Jakarta Sans (Modern Sans-serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- ANTHROPIC-INSPIRED HEADER -->
+        <header class="site-header">
+            <div class="brand-wrapper">
+                <div class="profile-avatar">
+                    <img src="logo.png" alt="itGourmand"
+                        onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex';">
+                    <div id="avatar-fallback" class="avatar-fallback" style="display:none;">itG</div>
+                </div>
+                <h1 class="site-title">itGourmand</h1>
+            </div>
+
+            <p class="site-bio">
+                Digital explorations, tailored tools, and functional interface design.
+                This space showcases standalone applications driven by my work in pixel editing, translation, and
+                modeling.
+            </p>
+
+            <div class="header-actions">
+                <a href="https://github.com/itgourmand" target="_blank" class="btn-secondary">
+                    <i class="fa-brands fa-github"></i> Explore the GitHub Workshop
+                </a>
+            </div>
+        </header>
+
+        <!-- PORTFOLIO GRID -->
+        <main class="portfolio-main">
+            <h2 class="section-title">Applications & Systems</h2>
+
+            <div id="projects-container" class="projects-grid">
+                <!-- JavaScript will inject dynamic cards here -->
+                <div class="loading-state">
+                    <i class="fa-solid fa-compass fa-spin"></i>
+                    <p>Inventorying active projects...</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- MINIMALIST FOOTER -->
+        <footer class="site-footer">
+            <p>© 2026 itGourmand. Dynamically generated via GitHub Pages.</p>
+        </footer>
+    </div>
+
+    <!-- External Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
